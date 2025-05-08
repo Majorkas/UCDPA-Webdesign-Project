@@ -10,5 +10,10 @@
 
   body {
   max-width: 2560px;
+  background-image: url(images/Bg-img-toollogo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
 }
 }
