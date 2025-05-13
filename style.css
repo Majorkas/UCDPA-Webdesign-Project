@@ -4,13 +4,14 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: black;
+      background-color:black;
     }
     .homenav{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-self: center;
-      margin-top: 600px;
+      margin-top: 700px;
+      max-width: fit-content;
     }
     .homenavitem{
       color:#81020B;
@@ -116,6 +117,7 @@
       color: #81020B;
       margin-bottom: 50px;
       font-family: fantasy, sans-serif;
+      transition: color 0.75s;
       }
       .subbutton:hover{
       color: #a83840;
