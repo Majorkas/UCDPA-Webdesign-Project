@@ -8,10 +8,11 @@
     }
     .homenav{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-self: center;
       margin-top: 700px;
-      max-width: fit-content;
+
     }
     .homenavitem{
       color:#81020B;
@@ -19,7 +20,7 @@
       padding: 3px;
       border: 2px solid #5426A2;
       text-decoration: none;
-      font-size: 2em;
+      font-size: 1.5em;
       font-family: Toolfont, fantasy, sans-serif;
       transition: color 0.75s;
     }
