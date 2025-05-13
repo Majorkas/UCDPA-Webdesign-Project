@@ -37,6 +37,68 @@
 
 @media (min-width: 600px) {
 
+  body.subscribe {
+  background-color:#5426A2;
+  }
+
+  .mainnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Toolfont, Fantasy, sans-serif;
+    border-bottom: black 2px solid;
+  }
+
+  .navitem{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 3em;
+    transition: color 0.75s;
+    border-right: solid black 2px;
+  }
+  .indexnavitem{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 3em;
+    transition: color 0.75s;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    padding-left: 7px;
+  }
+
+
+  .indexnavitem:hover{
+    color: #81020B;
+  }
+  .navitem:hover{
+    color: #81020B;
+  }
+
+  h1{
+    font-family: fantasy;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .subinput {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: none;
+    appearance: none;
+  }
+
+  .subinput::placeholder{
+    color: #81020B;
+  }
+
+
+
+
   body.home {
   max-width: 2560px;
   background-image: url(images/Bg-img-toollogo.jpg);
