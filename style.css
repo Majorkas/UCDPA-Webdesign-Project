@@ -266,6 +266,17 @@
     color: #5426A2;
   }
 
+  div.merchitem {
+    margin: 15px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+  }
+  div.merchitem img {
+    width: 100%;
+    height: auto;
+  }
+
 
 
 
