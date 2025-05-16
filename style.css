@@ -135,7 +135,7 @@
       }
 
       div.merchitem {
-        margin: 15px;
+        margin: 5px;
         border: 1px solid black;
         transition: border 0.75s;
         width: 180px;
@@ -154,7 +154,8 @@
       .Merch{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
+        /* align-items: center; */
+        justify-items: center;
       }
       .desc{
       text-align: center;
