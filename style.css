@@ -328,8 +328,20 @@
     cursor: default;
   }
 
+  .tourstable{
+    background-image: url(images/tool-lateralus-bw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  td, th {
+  background-color: #81020b65;
+  font-size: 2em;
+  border: #81020b65 solid 5px;
 
 
+  }
 
 
 }
