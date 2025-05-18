@@ -1,6 +1,6 @@
-# UCDPA-Webdesign-P                    ***Planning Analysis Sheet***
+                    ***Planning Analysis Sheet***
 
-In this project I will be showing everything I have learned so far in the first module Web Design 
+In this project I will be showing everything I have learned so far in the first module Web Design
 
 My goal for this website is to design a working website for a band I like with multiple pages and a good css styling to make it look like a modern website.
 
@@ -17,5 +17,5 @@ Designed for mobile at a minimum screen size of 350px and a max of 599px then ch
 
 The colours used for the text and background I used a hex colour picker to grab the hex value on the colours of the home background image to use across the site.
 
-Hosted on github pages 
+Hosted on github pages
 (https://majorkas.github.io/UCDPA-Webdesign-Project/)

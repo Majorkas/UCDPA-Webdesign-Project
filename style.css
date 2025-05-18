@@ -6,6 +6,10 @@
       background-size: cover;
       background-color:black;
     }
+    .mainbannerimg{
+      display: none;
+    }
+
     .homenav{
       display: flex;
       flex-wrap: wrap;
@@ -154,7 +158,7 @@
       .Merch{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* align-items: center; */
+        align-items: center;
         justify-items: center;
       }
       .desc{
@@ -166,6 +170,47 @@
         cursor: default;
       }
 
+      .tourstable{
+        background-image: url(images/tool-lateralus-bw.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+      td, th {
+      background-color: rgba(0, 0, 0, 0.452);
+      font-size: 2em;
+      color: white;
+      font-family: fantasy,sans-serif;
+
+
+
+      }
+      .tabletop{
+        font-size: 3em;
+        text-decoration: underline;
+      }
+      .Ticket{
+      font-weight: bold;
+      font-style: italic;
+      padding: 7px;
+
+      }
+      .update{
+        text-align: center;
+        font-family: fantasy,sans-serif;
+        color: black;
+        text-decoration: underline;
+      }
+      .mainbannerimgmobile{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+      }
+
 
 }
 
@@ -173,6 +218,13 @@
 
   body.pages {
   background-color:#5426A2;
+  }
+  .mainbannerimg{
+    width: 100px;
+    height: auto;
+  }
+  .mainbannerimgmobile{
+    display: none;
   }
 
   .mainnav {
@@ -221,7 +273,6 @@
   }
 
   .subinputdiv {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,22 +384,38 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 
   }
   td, th {
-  background-color: #81020b65;
+  background-color: #00000073;
   font-size: 2em;
-  border: #81020b65 solid 5px;
+  color: #ffffff;
+  font-family: fantasy,sans-serif;
 
 
   }
+  .Ticket{
+  font-weight: bold;
+  font-style: italic;
+  padding: 7px;
 
-
+  }
+  .update{
+    text-align: center;
+    font-family: fantasy,sans-serif;
+    color: black;
+    text-decoration: underline;
+  }
+  .tabletop{
+    font-size: 3em;
+  }
 }
 
 .socialsicon{
     height: auto;
-    width: 24px;
+    width: 40px;
 
 }
 .copyright{
@@ -373,4 +440,14 @@
 
 .formlabel{
 display: none;
+}
+
+.mailto{
+  text-decoration: underline;
+  color: #000000;
+  transition: color 0.75s;
+}
+
+.mailto:hover{
+  color: #81020B;
 }
